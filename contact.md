@@ -5,4 +5,4 @@ nav_order: 7
 
 # Contact
 
-TODO: add a role-based address for the committee (for example, a mailing list), rather than a personal address.
+To reach the ICER Steering Committee, email [icer-sc@listserv.acm.org](mailto:icer-sc@listserv.acm.org). Messages go to all committee members.
