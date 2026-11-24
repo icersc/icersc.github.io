@@ -1,0 +1,22 @@
+# Newest first. TODO: verify locations and URLs before launch.
+- year: 2026
+  location: "Uppsala, Sweden"
+  url: "https://icer2026.acm.org/"
+- year: 2025
+  location: "Charlottesville, Virginia, USA"
+  url: "https://icer2025.acm.org/"
+- year: 2024
+  location: "Melbourne, Australia"
+  url: "https://icer2024.acm.org/"
+- year: 2023
+  location: "Chicago, Illinois, USA"
+  url: "https://icer2023.acm.org/"
+- year: 2022
+  location: "Lugano, Switzerland (hybrid)"
+  url: "https://icer2022.acm.org/"
+- year: 2021
+  location: "Online"
+  url: "https://icer2021.acm.org/"
+- year: 2020
+  location: "Online"
+  url: "https://icer2020.acm.org/"

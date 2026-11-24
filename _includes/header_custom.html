@@ -1,0 +1,6 @@
+{% if site.current_conference.url %}
+<a class="conf-banner" href="{{ site.current_conference.url }}">
+  <span>{{ site.current_conference.name }}</span>
+  <span class="conf-banner-details">{{ site.current_conference.details }}</span>
+</a>
+{% endif %}

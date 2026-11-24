@@ -1,0 +1,60 @@
+title: ICER Steering Committee
+description: Steering Committee for the ACM Conference on International Computing Education Research (ICER).
+url: ""          # e.g. https://icersc.github.io, later https://icer.acm.org
+baseurl: ""
+
+theme: just-the-docs
+color_scheme: icer
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Single source of truth for the banner and homepage callout.
+# Update once per year at handover.
+current_conference:
+  name: "ICER 2027"
+  url: "https://icer2027.acm.org/"   # TODO: confirm once the 2027 site is live
+  details: "Sacramento, California, USA, 2–5 August 2027"
+
+callouts:
+  conference:
+    title: Next conference
+    color: blue
+  note:
+    title: Note
+    color: grey-dk
+
+aux_links:
+  "SIGCSE": "https://sigcse.org/"
+
+gh_edit_link: true
+gh_edit_link_text: "Propose a change to this page"
+gh_edit_repository: "https://github.com/icersc/icersc.github.io"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+
+# just-the-docs 0.10.1 still uses Sass @import, map-get() and darken(), which
+# Dart Sass flags as deprecated. The warnings come from the theme, not this
+# site, so silence them here until the theme migrates to the module system.
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+
+# Give every page the theme layout unless its front matter says otherwise
+# (index.md uses layout: home). Plain Jekyll 4 does not do this by itself.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
